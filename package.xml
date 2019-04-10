@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>uw_dyn</name>
+  <version>2.5.17</version>
+  <description>
+  	Underwater biomimetic robots are biologically inspired robots that involve complex rigid body dynamics and fluid-structure interactions. 
+	Simulation of such robots with gazebo has always been a challenging task. Unlike underwater vehicles such as ROVs and AUVs, 
+	these robots are propelled by fluid-structure interaction which are relatively hard to simulate compared to thrusters/propellers (as found in ROVs and AUVs). 
+	The proposed project aims at developing a gazebo package containing plugins capable of simulating such robots. 
+	It can also be extended to simulate biomimetic robots in fluids of various densities and even aerial biomimetic robots.
+  </description>
+
+  <maintainer email="imsenthur@gmail.com">Senthur Raj</maintainer>
+  <license>BSD, Apache 2.0</license>
+  <url type="repository">https://github.com/imsenthur/uw_dynamics</url>
+  <author>Senthur Raj</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo_dev</build_depend>
+  <exec_depend>gazebo_dev</exec_depend>
+
+  <depend>roscpp</depend>
+</package>
